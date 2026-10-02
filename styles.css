@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* Section One: Header */
+
+.section-one {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65vw;
+    margin: 0 auto;
+    padding: 8px 0;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Section Two: Hero */
+
+.section-two {
+    background-color: #1F2937;
+}
+
+.hero{
+    display: flex;
+    width: 65vw;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.herotext {
+    display: flex;
+    flex-flow: row wrap;
+    width: 420px;
+}
+
+.herotext h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+.herotext p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 2px 0;
+    padding: 0;
+}
+
+.herotext button {
+    background-color: #3B82F6;
+    color: white;
+    padding: 8px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 8px;
+    border-radius: 8px;
+}
+
+.heroimage {
+    background-color: #6c7482;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    height: 220px;
+}
+
+/* Section Three: Info */
+
+.section-three {
+    background-color: white;
+}
+
+.info {
+    text-align: center;
+    width: 45vw;
+    margin: 0 auto;
+}
+
+.infoheading {
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 100px;
+}
+
+.box {
+    width: 180px;
+    height: 180px;
+    border-radius: 16px;
+    border: 4px solid #3B82F6;
+}
+
+/* Section Four: Quote */
+
+.section-four {
+    background-color: #E5E7EB;
+    padding: 60px 0;
+}
+
+.quotewrapper {
+    color: #1F2937;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+}
+
+.quote > p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.author {
+    font-weight: 700;
+    align-self: self-end;
+}
+
+/* Section Five: Call to Action */
+
+.section-five {
+    background-color: white;
+    padding: 60px 0;
+}
+
+.cta {
+    background-color: #3B82F6;
+    color: white;
+    width: 65vw;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.ctacontent {
+    display: flex;
+    justify-content: space-between;
+    width: 45vw;
+    margin: 0 auto;
+    padding: 28px 0;
+}
+
+.call {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.cta button {
+    
+    background-color: #3B82F6;
+    color: white;
+    padding: 8px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.ctatext {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ctatext p {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Section Six: Footer */
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 16px 0;
+}
